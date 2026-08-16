@@ -50,4 +50,4 @@ python main.py
 ## Cerita di baliknya dikit
 yang bisa nyasar.
 GUN mode awalnya gak kayak sekarang. Percobaan pertama pake object tracker (CSRT terus MIL) buat ngikutin benda yang dipegang, tapi gagal mulu — soalnya justru pas gerakan cepet (yang emang dibutuhin buat "sentakan"-nya), tracker malah paling gampang kehilangan objek gara-gara motion blur. Percobaan kedua coba color detection (kalibrasi warna dari bendanya), eh malah ke-detect nyasar ke background yang warnanya mirip.
-Akhirnya pindah ke pendekatan paling simpel: frame differencing, bandingin frame sekarang sama sebelumnya, kalo ada area yang berubah gede dan cepet ya itu dianggap gerakan. Ternyata ini yang paling robust buat kasus sentakan cepat kayak gini — gak butuh kalibrasi apa-apa, dan gak ada state 
+Akhirnya pindah ke pendekatan paling simpel: frame differencing, bandingin frame sekarang sama sebelumnya, kalo ada area yang berubah gede dan cepet ya itu dianggap gerakan. Ternyata ini yang paling robust buat kasus sentakan cepat kayak gini gak butuh kalibrasi apa-apa, dan gak ada state 
