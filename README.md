@@ -16,7 +16,7 @@ Cara ganti mode tinggal nempelin ujung telunjuk ke tombol WEB atau GUN di pojok 
 
 ## Menjalankan Proyek
 
-Pake Python 3.11 ya, jangan yang lebih baru — MediaPipe belom compatible sama versi baru pas project ini dibikin (ini sempet bikin stuck lama banget 🙃).
+Pake Python 3.11 ya, jangan yang lebih baru — MediaPipe belom compatible sama versi baru pas project ini dibikin (ini sempet bikin stuck lama banget ).
 
 ```
 python -m venv venv
